@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <div class="row">
+        <div class="col-sm-3 d-flex align-items-center">
+          <img class="card-img-top" [src]="heroe.img" alt="">
+        </div>
+        <div class="col-sm-9">
+            <h5 class="card-header">{{heroe.nombre}}</h5>
+            <div class="card-body">
+              <span class="badge badge-pill badge-primary col-xs-6">{{heroe.casa}}</span>
+              <span class="badge badge-pill badge-primary col-xs-6">{{heroe.aparicion}}</span>
+              <p class="card-text">{{heroe.bio}}</p>
+              <a class="btn btn-primary active" routerLink="/heroes">Back</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
