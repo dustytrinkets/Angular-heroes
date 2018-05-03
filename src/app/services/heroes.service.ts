@@ -87,6 +87,10 @@ export class HeroesService {
         }
     }
     return heroesArr;
+<<<<<<< HEAD
   }
+=======
+}
+>>>>>>> d5f7504517ea0910d9dc19467502a6e72808e61c
 
 }
