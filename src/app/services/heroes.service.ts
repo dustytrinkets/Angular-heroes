@@ -77,5 +77,16 @@ export class HeroesService {
     console.log(i)
     return this.heroelist[i];
   }
+  searchHeroe(term:string):Heroe[]{
+    let heroesArr:Heroe[] = [];
+    term = term.toLowerCase();
+    for (let heroe of this.heroelist){
+        let nombre = heroe.nombre.toLowerCase();
+        if (nombre.includes(term)){
+            heroesArr.push(heroe)
+        }
+    }
+    return heroesArr;
+}
 
 }

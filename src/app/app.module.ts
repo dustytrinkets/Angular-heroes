@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { HeroeSearchComponent } from './components/heroe-search/heroe-search.component';
 
 
 //Routes
@@ -19,7 +20,8 @@ import { HeroesService } from './services/heroes.service';
     AppComponent,
     NavbarComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    HeroeSearchComponent
   ],
   imports: [
     BrowserModule,
